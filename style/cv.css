@@ -1,0 +1,29 @@
+h3, h4{
+    color: #0000ff;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+h4{
+font-size: 1.5rem;
+}
+
+body{
+    background-color: #8fbc8f;
+}
+
+#mario{
+    width: 20%;
+}
+
+#coord {
+    width: 50vw;
+    background-color: #a52a2a;
+    border: #000000 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
