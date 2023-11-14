@@ -10,6 +10,9 @@
 }
 
 header{
+    /*positionnement sur la page*/
+    position: fixed;
+    z-index: 10;
     /*Positionnement des blocks h1 et h2 dans le header*/
     display: flex;
     flex-direction: column;
@@ -38,8 +41,12 @@ header>h2 {
 }
 
 nav{
+    /*positionnement sur la page*/
+    position: fixed;
+    top: 20vh;
+    z-index: 10;
     /*taille et apparence de base du nav (menu)*/
-    height: 75vh;
+    height: 80vh;
     width: 20vw;
     color: #f0ffff;
     background-color: #00008b;
@@ -73,6 +80,25 @@ transition: box-shadow 500ms;
     /*color: #6b3d00;
     background-color: #f0ffff;*/
     box-shadow: whitesmoke 5px 5px 10px 0;
+}
 
+main {
+    /*positonnement sur la page*/
+    width: 80vw;
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+}
 
+footer {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 20vw;
+    height: 10vh;
+    width : 80vw;
+    background-image: url("../assets/footer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
