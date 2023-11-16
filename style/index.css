@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
+    background-color: #f5deb3;
     padding-top: 5vh;
 }
 
@@ -12,8 +12,7 @@ article{
     background-color: #f5cccc;
     box-shadow: rgb(47, 6, 228) 5px 5px 10px 0;
     padding: 10px;
-    margin-bottom: 2.5vh;
-
+    margin: 5vh 0;
 }
 
 article>h2 {
@@ -37,6 +36,34 @@ article>ul {
 }
 
 .espace{
+    /*l'image de fond glissante*/
     height: 40vh;
+    width: 100%;
+    background-image: url("../assets/iamage\ backround2.avif");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-position-y: 60vh;
+    background-position-x: 20vw;
+
+    /*le texte*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    color: #f5deb3;
+    padding-right: 5vw;
 }
 
+.espace>h2 {
+    font-size: 4em;
+}
+
+.espace>h3 {
+    font-size: 3.5em;
+}
+iframe {
+    width: 80%;
+    aspect-ratio: 16/9;
+    margin-left: 10%;
+}
