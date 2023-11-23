@@ -59,8 +59,8 @@ function fairNumber() {
 
         let userNumber = parseInt(playerInput.value)
 
-        let userNumber = parseInt(playerInput.value)
-        let message = `coup n°${}`
+        
+        let message = `coup n°${count}`
         if ( isNaN(userNumber)) {
             alert("il faut entrer un nombre")
         }else if(userNumber > randomTarget)
