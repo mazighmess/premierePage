@@ -35,5 +35,43 @@ button {
     font-size: 1em;
     font-weight: 700;
 }
-width: 80vw;
-left: 20vw;
+
+/*mise en forme du tic tac doe*/
+
+.ttdZone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.infoPanel {
+    width: 30%;
+    background-color: antiquewhite;
+    box-shadow: black 5px 5px 10px 0;
+}
+
+.grid {
+    width: 60%;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+.square {
+    width: 30%;
+    aspect-ratio: 1;
+    background-color: bisque;
+    border: black solid 1px;
+    background-size: contain;
+}
+
+.square:hover {
+    background-color: antiquewhite;
+}
+
+
